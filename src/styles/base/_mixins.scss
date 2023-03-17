@@ -1,0 +1,22 @@
+@mixin size-1($size-width, $size-height) {
+    width: $size-width;
+    height: $size-height;
+}
+@mixin pozition-1($absolute-top, $absolute-left) {
+    top: $absolute-top;
+    left: $absolute-left;
+}
+@mixin ff-fs-fw($family, $size, $weight) {
+    font-family: $family;
+    font-size: $size;
+    font-weight: $weight;
+}
+@mixin c-lh-ws-ls($color, $lh, $ws, $ls) {
+    color: $color;
+    line-height: $lh;   
+    word-spacing: $ws;
+    letter-spacing: $ls; 
+}
+
+
+
